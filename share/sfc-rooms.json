@@ -1,0 +1,246 @@
+[
+    {
+	"name": "Alpha",
+	"japanese": "アルファ",
+	"roman": "A",
+	"greek": "Α",
+	"Aliases": [
+	    "本館",
+	    "事務"
+	],
+	"SFSNumber": "11"
+    },
+    {
+	"name": "Omega",
+	"japanese": "オメガ",
+	"roman": "",
+	"greek": "Ω",
+	"Aliases": [
+	    ""
+	],
+	"SFSNumber": "10"
+    },
+    {
+	"name": "Mu",
+	"japanese": "ミュー",
+	"roman": "M",
+	"greek": "Μ",
+	"Aliases": [
+	    "メディア"
+	],
+	"SFSNumber": "11"
+    },
+    {
+	"name": "Kappa",
+	"japanese": "カッパ",
+	"roman": "k",
+	"greek": "κ",
+	"Aliases": [
+	    ""
+	],
+	"SFSNumber": "1"
+    },
+    {
+	"name": "Epsilon",
+	"japanese": "イプシロン",
+	"roman": "e",
+	"greek": "ε",
+	"Aliases": [
+	    ""
+	],
+	"SFSNumber": "2"
+    },
+    {
+	"name": "Iota",
+	"japanese": "イオタ",
+	"roman": "i",
+	"greek": "ι",
+	"Aliases": [
+	    ""
+	],
+	"SFSNumber": "3"
+    },
+    {
+	"name": "Omicron",
+	"japanese": "オミクロン",
+	"roman": "o",
+	"greek": "ο",
+	"Aliases": [
+	    ""
+	],
+	"SFSNumber": "4"
+    },
+    {
+	"name": "Lambda",
+	"japanese": "ラムダ",
+	"roman": "l",
+	"greek": "λ",
+	"Aliases": [
+	    ""
+	],
+	"SFSNumber": "5"
+    },
+    {
+	"name": "Theta",
+	"japanese": "シータ",
+	"roman": "",
+	"greek": "θ",
+	"Aliases": [
+	    "講堂"
+	],
+	"SFSNumber": "11"
+    },
+    {
+	"name": "Delta",
+	"japanese": "デルタ",
+	"roman": "",
+	"greek": "Δ",
+	"Aliases": [
+	    ""
+	],
+	"SFSNumber": "6"
+    },
+    {
+	"name": "Tau",
+	"japanese": "タウ",
+	"roman": "t",
+	"greek": "τ",
+	"Aliases": [
+	    "院棟",
+	    "大学院棟",
+	    "ロフト"
+	],
+	"SFSNumber": "7"
+    },
+    {
+	"name": "Psi",
+	"japanese": "サイ",
+	"roman": "",
+	"greek": "Ψ",
+	"Aliases": [
+	    ""
+	],
+	"SFSNumber": "11"
+    },
+    {
+	"name": "Phi",
+	"japanese": "フィー",
+	"roman": "",
+	"greek": "Φ",
+	"Aliases": [
+	    ""
+	],
+	"SFSNumber": "11"
+    },
+    {
+	"name": "Gamma",
+	"japanese": "ガンマ",
+	"roman": "",
+	"greek": "Γ",
+	"Aliases": [
+	    "体育館",
+	    "アリーナ"
+	],
+	"SFSNumber": "11"
+    },
+    {
+	"name": "Sigma",
+	"japanese": "シグマ",
+	"roman": "",
+	"greek": "Σ",
+	"Aliases": [
+	    "生協",
+	    "タブリエ",
+	    "レディーバード"
+	],
+	"SFSNumber": "11"
+    },
+    {
+	"name": "Nu",
+	"japanese": "ニュー",
+	"roman": "",
+	"greek": "Ν",
+	"Aliases": [
+	    "Docomo",
+	    "ドコモ",
+	    "Docomoハウス",
+	    "ドコモハウス",
+	    "DNP",
+	    "DNPハウス",
+	    "舘内ハウス",
+	    "森アトリエ",
+	    "IIJ",
+	    "IIJハウス",
+	    "デザインスタジオ"
+	],
+	"SFSNumber": "9",
+	"floor": {
+	    "IIJHouse": "1",
+	    "DocomoHouse": "2",
+	    "DNPHouse": "3",
+	    "TateuchiHouse": "4",
+	    "MoriAtelier": "5"
+	}
+    },
+    {
+	"name": "Zeta",
+	"japanese": "ゼータ",
+	"roman": "Z",
+	"greek": "Ζ",
+	"Aliases": [
+	    "情報基盤センター"
+	],
+	"SFSNumber": "8"
+    },
+    {
+	"name": "Xi",
+	"japanese": "クザイ",
+	"roman": "",
+	"greek": "ξ",
+	"Aliases": [
+	    "ものづくり工房"
+	],
+	"SFSNumber": "11"
+    },
+    {
+	"name": "Eta",
+	"japanese": "イータ",
+	"roman": "",
+	"greek": "η",
+	"Aliases": [
+	    ""
+	],
+	"SFSNumber": "11"
+    },
+    {
+	"name": "Lounge",
+	"japanese": "学生ラウンジ",
+	"roman": "",
+	"greek": "",
+	"Aliases": [
+	    "サブウェイ",
+            "subway"
+	],
+	"SFSNumber": "11"
+    },
+    {
+	"name": "GuestHouse",
+	"japanese": "セミナーゲストハウス",
+	"roman": "",
+	"greek": "",
+	"Aliases": [
+	    "ゲストハウス"
+	],
+	"SFSNumber": "11"
+    },
+    {
+	"name": "Others",
+	"japanese": "その他",
+	"roman": "",
+	"greek": "",
+	"Aliases": [
+	    ""
+	],
+	"SFSNumber": "11"
+    }
+]
