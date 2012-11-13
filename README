@@ -21,6 +21,13 @@ perldoc command.
     perldoc SFC::Room
 
 
+ACKNOWLEDGEMENTS
+
+This module is inspired by Rubys sfc-room gem.
+
+sfc-room : [ https://github.com/ymrl/sfc-room ]
+
+
 LICENSE AND COPYRIGHT
 
 Copyright (C) 2012 cory
