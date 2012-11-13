@@ -1,4 +1,4 @@
-0;95;cpackage SFC::Room;
+package SFC::Room;
 
 use 5.006;
 use strict;
