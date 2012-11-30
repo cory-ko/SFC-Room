@@ -156,8 +156,8 @@ sub parse {
 	if ($word =~ /$dic/i) {
 	    my $room= SFC::Room::Data->new($all_rooms->{$name2room{$dic}});
 
-	    if (grep { $_ eq $word } @{$room->{Aliases}}) {
-		$room->{japanese}= $word;
+	    if (my ($alias_name)= grep { $_ =~ /^$word$/i } @{$room->{Aliases}}) {
+		$room->{japanese}= $alias_name;
 	    }
 
 	    return $room->_add_floor_and_room($word);
