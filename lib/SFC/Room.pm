@@ -152,7 +152,7 @@ sub parse {
     }
 
     # matching
-    for my $dic (sort {length $name2room{$a} <=> length $name2room{$b}} keys %name2room) {
+    for my $dic (sort {length $b <=> length $a} keys %name2room) {
 	if ($word =~ /$dic/i) {
 	    my $room= SFC::Room::Data->new($all_rooms->{$name2room{$dic}});
 
