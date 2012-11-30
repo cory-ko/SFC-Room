@@ -54,4 +54,11 @@ my $r= SFC::Room->new('./share/sfc-rooms.json');
     is($room->string, 'IIJハウス', 'can parse nu classroom');
 }
 
+{
+    my $room= $r->parse('不特定多数不純異性交遊促進型ロッジ');
+    is($room->name,   'Nu',        'can parse nu classroom');
+    is($room->floor,  '1',         'can parse nu classroom');
+    is($room->string, '不特定多数不純異性交遊促進型ロッジ', 'can parse nu classroom');
+}
+
 done_testing();
