@@ -49,7 +49,11 @@ sub string {
     my $japanese= $self->japanese;
     my $room=     $self->room;
 
-    return $japanese.$room;
+    if ($self->japanese =~ /Auto-ID/i) {
+	return $japanese;
+    } else {
+	return $japanese.$room;
+    }
 }
 
 sub _get_accessor {
@@ -70,6 +74,8 @@ sub _add_floor_and_room {
 	$self->{floor}= $self->{floor}->{TateuchiHouse};
     } elsif ($word =~ /森/) {
 	$self->{floor}= $self->{floor}->{MoriAtelier};
+    } elsif ($word =~ /auto-id/i) {
+	$self->{room}= 202;
     } elsif ($self->name eq 'Delta') {
 	if ($word =~ /([ns])(\d+)/i) {
 	    $self->{room}=  uc($1).$2;
