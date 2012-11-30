@@ -66,16 +66,20 @@ sub _add_floor_and_room {
 
     if ($word =~ /iij|不純/i) {
 	$self->{floor}= $self->{floor}->{IIJHouse};
+	$self->{japanese}= 'IIJハウス';
     } elsif ($word =~ /docomo|ドコモ/i) {
 	$self->{floor}= $self->{floor}->{DocomoHouse};
+	$self->{japanese}= 'ドコモハウス';
     } elsif ($word =~ /dnp/i) {
 	$self->{floor}= $self->{floor}->{DNAHouse};
+	$self->{japanese}= 'DNPハウス';
     } elsif ($word =~ /館内/) {
 	$self->{floor}= $self->{floor}->{TateuchiHouse};
     } elsif ($word =~ /森/) {
 	$self->{floor}= $self->{floor}->{MoriAtelier};
     } elsif ($word =~ /auto-id/i) {
 	$self->{room}= 202;
+	$self->{japanese}= 'Auto-IDラボ';
     } elsif ($self->name eq 'Delta') {
 	if ($word =~ /([ns])(\d+)/i) {
 	    $self->{room}=  uc($1).$2;
