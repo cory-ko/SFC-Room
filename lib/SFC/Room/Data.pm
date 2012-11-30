@@ -60,7 +60,7 @@ sub _add_floor_and_room {
     my $self= shift;
     my $word= shift;
 
-    if ($word =~ /iij/i) {
+    if ($word =~ /iij|不純/i) {
 	$self->{floor}= $self->{floor}->{IIJHouse};
     } elsif ($word =~ /docomo|ドコモ/i) {
 	$self->{floor}= $self->{floor}->{DocomoHouse};
